@@ -1,0 +1,65 @@
+[
+    {
+        "title": "Hero",
+        "caption": null,
+        "detail": "Lorem ipsum dolor sit amet. Id omnis eius sed eligendi iusto quo quam inventore quo quibusdam ducimus in fugit cumque. Est natus obcaecati qui omnis ducimus rem autem eligendi aut tenetur omnis qui rerum voluptatem ut rerum sint. Et laboriosam voluptas et rerum facilis aut quae dolores quo sequi voluptates.",
+        "learnMore": false,
+        "enabled": true,
+        "isApp": false,
+        "image": "/../assets/images/tile1.jpg"
+    },
+    {
+        "title": "App 1",
+        "caption": "Web application One",
+        "detail": "Lorem ipsum dolor sit amet. Id omnis eius sed eligendi iusto quo quam inventore quo quibusdam ducimus in fugit cumque. Est natus obcaecati qui omnis ducimus rem autem eligendi aut tenetur omnis qui rerum voluptatem ut rerum sint. Et laboriosam voluptas et rerum facilis aut quae dolores quo sequi voluptates.",
+        "learnMore": false,
+        "enabled": false,
+        "isApp": true,
+        "image": "/../assets/images/tile2.jpg"
+    },
+    {
+        "title": "App 2",
+        "caption": "Web application Two",
+        "detail": "Lorem ipsum dolor sit amet. Id omnis eius sed eligendi iusto quo quam inventore quo quibusdam ducimus in fugit cumque. Est natus obcaecati qui omnis ducimus rem autem eligendi aut tenetur omnis qui rerum voluptatem ut rerum sint. Et laboriosam voluptas et rerum facilis aut quae dolores quo sequi voluptates.",
+        "learnMore": false,
+        "enabled": false,
+        "isApp": true,
+        "image": "/../assets/images/tile3.jpg"
+    },
+    {
+        "title": "App 3",
+        "caption": "Web application Three",
+        "detail": "Lorem ipsum dolor sit amet. Id omnis eius sed eligendi iusto quo quam inventore quo quibusdam ducimus in fugit cumque. Est natus obcaecati qui omnis ducimus rem autem eligendi aut tenetur omnis qui rerum voluptatem ut rerum sint. Et laboriosam voluptas et rerum facilis aut quae dolores quo sequi voluptates.",
+        "learnMore": false,
+        "enabled": true,
+        "isApp": true,
+        "image": "/../assets/images/tile4.jpg"
+    },
+    {
+        "title": "App 4",
+        "caption": "Web application Four",
+        "detail": "Lorem ipsum dolor sit amet. Id omnis eius sed eligendi iusto quo quam inventore quo quibusdam ducimus in fugit cumque. Est natus obcaecati qui omnis ducimus rem autem eligendi aut tenetur omnis qui rerum voluptatem ut rerum sint. Et laboriosam voluptas et rerum facilis aut quae dolores quo sequi voluptates.",
+        "learnMore": false,
+        "enabled": true,
+        "isApp": true,
+        "image": "/../assets/images/tile5.jpg"
+    },
+    {
+        "title": "App 5",
+        "caption": "Web application Five",
+        "detail": "Lorem ipsum dolor sit amet. Id omnis eius sed eligendi iusto quo quam inventore quo quibusdam ducimus in fugit cumque. Est natus obcaecati qui omnis ducimus rem autem eligendi aut tenetur omnis qui rerum voluptatem ut rerum sint. Et laboriosam voluptas et rerum facilis aut quae dolores quo sequi voluptates.",
+        "learnMore": false,
+        "enabled": true,
+        "isApp": true,
+        "image": "/../assets/images/tile6.jpg"
+    },
+    {
+        "title": "App 6",
+        "caption": "Web application Six",
+        "detail": "Lorem ipsum dolor sit amet. Id omnis eius sed eligendi iusto quo quam inventore quo quibusdam ducimus in fugit cumque. Est natus obcaecati qui omnis ducimus rem autem eligendi aut tenetur omnis qui rerum voluptatem ut rerum sint. Et laboriosam voluptas et rerum facilis aut quae dolores quo sequi voluptates.",
+        "learnMore": false,
+        "enabled": false,
+        "isApp": true,
+        "image": "/../assets/images/tile7.jpg"
+    }
+]

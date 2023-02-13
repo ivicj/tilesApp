@@ -1,0 +1,32 @@
+<div class="grid-container">
+    <div class="grid-tile" *ngFor="let tile of tiles; index as i">
+        <mat-card *ngIf="!tile.isApp" class="non-app-tile" [ngStyle]="{'background-image': 'url(' + tile.image +')'}">
+            <h1>{{ tile.title }}</h1>
+            <p class="paragraph-left" [innerHTML]="tile.detail"></p>
+        </mat-card>
+        <mat-card *ngIf="tile.isApp && tile.enabled" class="app-tile" [ngStyle]="{'background-image': 'url(' + tile.image +')'}">
+            <div class="text-content">
+                <h1>{{ tile.title }}</h1>
+                <p>{{ tile.caption + ' | Tile' }}</p>
+            </div>
+        </mat-card>
+        <mat-card *ngIf="tile.isApp && !tile.enabled && !tile.learnMore" class="app-tile" [ngStyle]="{'background-image': 'url(' + tile.image +')'}">
+            <div class="text-content">
+                <button mat-button mat-raised-button color="primary" (click)="openLearnMore(tile, i)">{{ 'Learn more'
+                    }}</button>
+                <h1>{{ tile.title }}</h1>
+                <p>{{ tile.caption + ' | Tile' }}</p>
+            </div>
+        </mat-card>
+        <mat-card *ngIf="tile.isApp && !tile.enabled && tile.learnMore" class="learn-more-tile" [ngStyle]="{'background-image': 'url(' + tile.image +')'}">
+            <mat-icon (click)="removeTile(i)">close</mat-icon>
+            <div class="text-content">
+                <h1>{{ tile.title }}</h1>
+                <p>{{ tile.detail }}</p>
+                <button mat-button mat-raised-button color="primary" (click)="openContact()">
+                    <span>{{ 'Contact support to learn more' }}</span>
+                </button>
+            </div>
+        </mat-card>
+    </div>
+</div>
