@@ -15,3 +15,5 @@ Any given grid cell has a button that opens up another, larger area that is also
 - full width.
 
 All the displayed data is fetched from a local json file.
+
+![image](https://user-images.githubusercontent.com/16215654/218459013-e79fb8f0-dde0-42eb-8410-9c00759a3683.png)
