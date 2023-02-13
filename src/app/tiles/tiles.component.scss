@@ -1,0 +1,76 @@
+@use '@angular/material' as mat;
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 25rem);
+    grid-auto-flow: dense;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+    
+    .grid-tile {
+        display: contents;
+    }
+}
+
+.app-tile {
+    box-shadow: inset 0rem -3rem 6rem 0.6rem rgba(35, 35, 35, 0.9);
+    cursor: pointer;
+    padding: 1rem;
+    background-size: cover;
+
+    &:hover {
+        @include mat.elevation(8);
+    }
+
+    .text-content {
+        padding-top: 10rem;
+
+        h1,
+        p {
+            color: #fff;
+        }
+    }
+
+    button {
+        position: absolute;
+        top: 4%;
+        right: 3%;
+    }
+}
+
+.non-app-tile {
+    grid-column: 1 / -1;
+    max-height: 18rem;
+    min-height: 18rem;
+    padding: 1rem;
+    background-size: cover;
+}
+
+.learn-more-tile {
+    grid-column: 1 / -1;
+    max-height: 18rem;
+    min-height: 18rem;
+    padding: 1rem;
+    background-size: cover;
+    background-position: center;
+
+    mat-icon {
+        position: absolute;
+        right: 2%;
+        color: #fff;
+    }
+
+    .text-content {
+        padding-top: 2rem;
+        
+        h1,
+        p {
+            color: #fff;
+        }
+
+        button {
+            margin-top: 2rem;
+        }
+    }
+}
