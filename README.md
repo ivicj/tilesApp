@@ -10,8 +10,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 CSS Grid Responsive Layout implementation with expandable sections.
 
-Any given grid cell has a button that would open up another, larger area that is also part of the grid. But this new larger grid cell needs to be:
+Any given grid cell has a button that opens up another, larger area that is also part of the grid. But this new larger grid cell is displayed:
 - right below the cell that opened it, and
 - full width.
 
-All displayed data is fetched from local json file.
+All the displayed data is fetched from a local json file.
